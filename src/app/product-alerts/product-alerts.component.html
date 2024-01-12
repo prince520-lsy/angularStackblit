@@ -1,0 +1,5 @@
+<!-- <p>product-alerts works!</p> -->
+
+<p *ngIf="product && product.price > 600">
+  <button type="button" (click)="notify.emit()">注意我</button>
+<p>
